@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Data Przeglądu"
+            android:inputType="date"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/pd_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Numer PD"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Obszar"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/sr_num_dm9225"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Numer Seryjny DM9225"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/comments_dm9225"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Uwagi"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/sr_num_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Numer Seryjny Switch"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/comments_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Uwagi"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/sr_num_p0ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Numer Seryjny P0GE"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/comments_p0ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Uwagi"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/sr_num_p1ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Numer Seryjny P1GE"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/comments_p1ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Uwagi"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/sr_num_p2ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Numer Seryjny P2GE"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/comments_p2ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Uwagi"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/sr_num_p3ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Numer Seryjny P3GE"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/comments_p3ge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Uwagi"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <EditText
+            android:id="@+id/ups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="UPS"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/battery_pack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="BATTERY PACK"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/rout_switch_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ROUTER/SWITCH/MEDIACONVERTER"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/foreign_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="URZĄDZENIE OBCE"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/comments_others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="UWAGI INNE"
+            android:inputType="textPersonName"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CZYNNOŚCI DODATKOWE"
+            android:textStyle="bold" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:visibility="visible">
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="TAK/NIE" />
+
+                <EditText
+                    android:id="@+id/cleaning_filters"
+                    android:layout_width="322dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="CZYSZCZENIE FILTRÓW"
+                    android:inputType="textPersonName"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:visibility="visible">
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="TAK/NIE" />
+
+            <EditText
+                android:id="@+id/replacement_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="WYMIANA WKŁADU FILTRA"
+                android:inputType="textPersonName"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:visibility="visible">
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TAK/NIE" />
+
+    <EditText
+        android:id="@+id/study_ups"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="BADANIE CZASU ROZŁADOWANIA UPS"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:visibility="visible">
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TAK/NIE" />
+
+    <EditText
+        android:id="@+id/cleaning_cabinet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CZYSZCZENIE SZAFKI"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+</TableRow>
+
+
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:visibility="visible">
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TAK/NIE" />
+
+    <EditText
+        android:id="@+id/efficiency_of_the_cabinet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="SPR. POPRA. MOCOWANIA SAFKI"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+</TableRow>
+
+    </TableLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZAPISZ" />
+
+    </LinearLayout>
+</ScrollView>
